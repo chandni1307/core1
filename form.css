@@ -1,0 +1,113 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"]
+{
+    width: 70%;
+    margin:10px 10px;
+    padding:10px 10px;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.heading{
+    width: 50%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+table{
+   width: 50%;
+   background-color:rgb(218, 192, 192);
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus{
+    background-color: rgb(201, 129, 103);
+    border:4px solid black;
+}
+input[type="Qualification"]{
+    width: 70%;
+    margin:10px 10px;
+    padding:10px 10px;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.text{
+    color: black;
+    width: 10px;
+    padding: 10px  20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+textarea{
+    width: 70%;
+    margin:10px 10px;
+    padding:10px 0;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+textarea:focus{
+    background-color: rgb(209, 199, 195);
+    border:2px solid black; 
+  
+}
+select{
+    width: 70%;
+    margin:10px 10px;
+    padding:10px 0;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type="checkbox"]{
+    width: 20%;
+    margin:10px 10px;
+    padding:10px 0;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    size: 20px;
+}
+input[type="checkbox"]:focus{
+    background-color: rgb(19, 149, 182);
+    border:2px solid black;
+}
+input[type="radio"]{
+    width: 20%;
+    margin:10px 10px;
+    padding:10px 0;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    size: 20px;   
+}
+input[type="radio"]:focus{
+    background-color: rgb(91, 91, 207);
+    border:2px solid black;
+}
+table td tr{
+    border: 2px solid rgb(212, 43, 43);
+} 
+input[type="button"],
+input[type="submit"],
+input[type="reset"]{
+    width: 50%;
+    margin:10px 10px;
+    padding:10px 10px;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 4px;  
+}
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus{
+    background-color: rgb(224, 84, 28);
+    border:2px solid black;   
+}
